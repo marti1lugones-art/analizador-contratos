@@ -1,7 +1,21 @@
+# Python
 .venv/
 __pycache__/
 *.py[cod]
+
+# Secretos
 .env
+
+# Archivos generados / salidas
 *.pdf
-.DS_Store
+resultados/
+
+# Frontend
 node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
+
+# Lock files que no corresponden al proyecto principal
+package-lock.json
