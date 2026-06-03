@@ -19,3 +19,4 @@ frontend/dist/
 
 # Lock files que no corresponden al proyecto principal
 package-lock.json
+frontend/.vite/
