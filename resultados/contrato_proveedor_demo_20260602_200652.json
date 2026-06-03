@@ -1,0 +1,148 @@
+{
+  "archivo": "contrato_proveedor_demo.pdf",
+  "analizado_en": "2026-06-02T20:06:01",
+  "modelo": "claude-sonnet-4-6",
+  "resumen": {
+    "total_clausulas": 10,
+    "con_riesgo": 8,
+    "requieren_revision": 4,
+    "errores_de_api": 0,
+    "por_nivel": {
+      "alto": 7,
+      "medio": 1,
+      "bajo": 0
+    }
+  },
+  "hallazgos": [
+    {
+      "numero_clausula": "PRIMERA",
+      "titulo_clausula": "OBJETO DEL CONTRATO",
+      "cuerpo_clausula": "El Proveedor se obliga a prestar al Cliente servicios de desarrollo, implementación\ny\nmantenimiento de la plataforma de gestión de inventario y logística denominada\n\"LOGFLOW Pro\". Los servicios comprenden:\na) Licencia de uso de la plataforma LOGFLOW Pro para hasta cincuenta (50)\nusuarios;\nb) Soporte técnico en días hábiles, de lunes a viernes en el horario de 9:00 a\n18:00 hs;\nc) Actualizaciones de seguridad y mejoras funcionales incluidas en el precio;\nd) Capacitación inicial para hasta diez (10) usuarios designados por el Cliente.",
+      "riesgo_detectado": false,
+      "tipo_riesgo": null,
+      "nivel_riesgo": null,
+      "explicacion": "La cláusula describe el objeto del contrato y los servicios incluidos sin imponer condiciones desfavorables, obligaciones significativas ni limitaciones de derechos para la empresa contratante.",
+      "cita_textual": null,
+      "requiere_revision_humana": false,
+      "motivo_revision": null,
+      "error": null
+    },
+    {
+      "numero_clausula": "SEGUNDA",
+      "titulo_clausula": "PRECIO DE LOS SERVICIOS",
+      "cuerpo_clausula": "El precio mensual por la prestación de los servicios acordados es de PESOS CIENTO\nOCHENTA MIL ($180.000), más el Impuesto al Valor Agregado (IVA) correspondiente. El\npago deberá efectuarse dentro de los primeros cinco (5) días hábiles de cada mes\ncalendario, mediante transferencia bancaria a la cuenta indicada por el Proveedor.",
+      "riesgo_detectado": false,
+      "tipo_riesgo": null,
+      "nivel_riesgo": null,
+      "explicacion": "La cláusula establece un precio fijo mensual con condiciones de pago estándar (plazo y modalidad). No contiene mecanismos de ajuste, penalidades ni ninguna otra condición que corresponda a los tipos de riesgo de la lista.",
+      "cita_textual": null,
+      "requiere_revision_humana": false,
+      "motivo_revision": null,
+      "error": null
+    },
+    {
+      "numero_clausula": "TERCERA",
+      "titulo_clausula": "AJUSTE DE PRECIOS",
+      "cuerpo_clausula": "El precio establecido en la Cláusula Segunda será ajustado en forma automática cada\ntres (3) meses, en base a la variación acumulada del Índice de Precios al\nConsumidor\n(IPC) publicado por el Instituto Nacional de Estadística y Censos (INDEC)\ncorrespondiente al trimestre anterior. El ajuste operará sin necesidad de\nnotificación\nprevia ni acuerdo expreso entre las partes, siendo suficiente comunicación la\nremisión\n\nde la factura con el nuevo importe actualizado. En ningún caso el ajuste podrá ser\nnegativo.",
+      "riesgo_detectado": true,
+      "tipo_riesgo": "ajuste de precios",
+      "nivel_riesgo": "alto",
+      "explicacion": "El precio se incrementa automáticamente cada trimestre según el IPC sin requerir acuerdo previo ni notificación formal, y además se establece expresamente que el ajuste nunca puede ser negativo, lo que impide que la empresa contratante se beneficie de eventuales bajas en el índice.",
+      "cita_textual": "El ajuste operará sin necesidad de notificación previa ni acuerdo expreso entre las partes, siendo suficiente comunicación la remisión de la factura con el nuevo importe actualizado. En ningún caso el ajuste podrá ser negativo.",
+      "requiere_revision_humana": false,
+      "motivo_revision": null,
+      "error": null
+    },
+    {
+      "numero_clausula": "CUARTA",
+      "titulo_clausula": "PLAZO DE VIGENCIA Y RENOVACIÓN",
+      "cuerpo_clausula": "El presente Contrato tendrá una vigencia inicial de veinticuatro (24) meses\ncontados\ndesde la fecha de su suscripción. Vencido dicho plazo, se renovará automáticamente\npor\nperíodos consecutivos de doce (12) meses cada uno, salvo que cualquiera de las\npartes\nnotifique fehacientemente a la otra, con una antelación no menor a noventa (90)\ndías\ncorridos previos al vencimiento en curso, su voluntad de no prorrogar el Contrato.\nLa falta de notificación en tiempo y forma implicará la renovación automática del\nContrato en los mismos términos y condiciones vigentes al momento del vencimiento.",
+      "riesgo_detectado": true,
+      "tipo_riesgo": "renovación automática",
+      "nivel_riesgo": "alto",
+      "explicacion": "El contrato se renueva automáticamente por períodos de 12 meses si no se notifica con 90 días de anticipación, lo que puede generar compromisos no deseados si se pierde ese plazo. La combinación de renovación automática y un preaviso extenso aumenta el riesgo de quedar atado al contrato involuntariamente.",
+      "cita_textual": "La falta de notificación en tiempo y forma implicará la renovación automática del Contrato en los mismos términos y condiciones vigentes al momento del vencimiento.",
+      "requiere_revision_humana": false,
+      "motivo_revision": null,
+      "error": null
+    },
+    {
+      "numero_clausula": "QUINTA",
+      "titulo_clausula": "EXCLUSIVIDAD",
+      "cuerpo_clausula": "5.1. Exclusividad del Cliente: Durante la vigencia del presente Contrato y por un\nperíodo de dieciocho (18) meses contados desde su terminación por cualquier causa,\nel\nCliente se compromete a no contratar, directa ni indirectamente, a ningún otro\nproveedor de sistemas de gestión de inventario y logística que compita con la\nplataforma LOGFLOW Pro, en el territorio de las provincias de Tucumán, Salta y\nJujuy.\n5.2. Exclusividad del Proveedor: El Proveedor no podrá comercializar la plataforma\nLOGFLOW Pro ni prestar servicios similares a empresas distribuidoras mayoristas con\noperaciones en las provincias indicadas que sean competencia directa del Cliente,\ndurante la vigencia del presente Contrato.",
+      "riesgo_detectado": true,
+      "tipo_riesgo": "exclusividad",
+      "nivel_riesgo": "alto",
+      "explicacion": "La cláusula obliga al Cliente a no contratar ningún otro proveedor de sistemas de gestión de inventario y logística competidor en tres provincias, incluso durante 18 meses después de terminado el contrato, lo que limita significativamente su libertad comercial post-contractual. La exclusividad del Proveedor, en cambio, solo rige durante la vigencia del contrato, generando una asimetría desfavorable para el Cliente.",
+      "cita_textual": "el Cliente se compromete a no contratar, directa ni indirectamente, a ningún otro proveedor de sistemas de gestión de inventario y logística que compita con la plataforma LOGFLOW Pro, en el territorio de las provincias de Tucumán, Salta y Jujuy",
+      "requiere_revision_humana": true,
+      "motivo_revision": "La extensión de la exclusividad del Cliente por 18 meses post-terminación es inusualmente amplia y podría ser cuestionable en su validez o razonabilidad; se recomienda evaluar su impacto operativo y la conveniencia de negociar una reducción del plazo o del alcance territorial.",
+      "error": null
+    },
+    {
+      "numero_clausula": "SEXTA",
+      "titulo_clausula": "PENALIDADES POR INCUMPLIMIENTO Y RESCISIÓN",
+      "cuerpo_clausula": "6.1. Incumplimiento del Proveedor: En caso de que el Proveedor no resuelva una\ninterrupción del servicio calificada como \"crítica\" dentro de las cuatro (4) horas\nhábiles de notificada fehacientemente, el Cliente tendrá derecho a aplicar una\npenalidad del tres por ciento (3%) sobre el precio mensual por cada hora adicional\nde\ndemora, hasta un máximo acumulable del veinte por ciento (20%) del precio mensual.\n6.2. Rescisión anticipada por el Cliente sin causa: Si el Cliente rescindiera el\nContrato antes de su vencimiento sin causa imputable al Proveedor, deberá abonar en\nconcepto de indemnización una suma equivalente al precio de tres (3) meses de\nservicio, calculada sobre el último precio vigente al momento de la rescisión.\n6.3. Rescisión anticipada por el Proveedor sin causa: Si el Proveedor rescindiera\nel\n\nContrato antes de su vencimiento sin causa imputable al Cliente, deberá restituir\nel\nequivalente al precio de dos (2) meses de servicio ya abonados, a título de\ncompensación por los daños ocasionados al Cliente.",
+      "riesgo_detectado": true,
+      "tipo_riesgo": "penalidades por incumplimiento o rescisión",
+      "nivel_riesgo": "alto",
+      "explicacion": "La cláusula impone al Cliente una indemnización equivalente a 3 meses de servicio si rescinde sin causa, mientras que si es el Proveedor quien rescinde sin causa, la compensación al Cliente es de solo 2 meses, generando una asimetría desfavorable para la empresa contratante.",
+      "cita_textual": "Si el Cliente rescindiera el Contrato antes de su vencimiento sin causa imputable al Proveedor, deberá abonar en concepto de indemnización una suma equivalente al precio de tres (3) meses de servicio, calculada sobre el último precio vigente al momento de la rescisión.",
+      "requiere_revision_humana": true,
+      "motivo_revision": "La asimetría entre la penalidad impuesta al Cliente (3 meses) y la compensación recibida si rescinde el Proveedor (2 meses) puede ser desfavorable y debería evaluarse su renegociación. Además, el tope del 20% sobre las penalidades por SLA crítico podría resultar insuficiente según la criticidad del servicio contratado.",
+      "error": null
+    },
+    {
+      "numero_clausula": "SÉPTIMA",
+      "titulo_clausula": "CONFIDENCIALIDAD",
+      "cuerpo_clausula": "7.1. Ambas partes se obligan a mantener en estricta confidencialidad toda\ninformación\ntécnica, comercial, financiera y estratégica que reciban en virtud del presente\nContrato, sin que dicha obligación requiera estar expresamente marcada como\n\"confidencial\" en cada documento.\n7.2. La obligación de confidencialidad subsistirá durante la vigencia del Contrato\ny\npor un período de cinco (5) años contados desde su vencimiento o resolución por\ncualquier causa, con independencia del motivo de extinción.\n7.3. Las partes solo podrán divulgar información confidencial cuando sea requerida\npor orden judicial o autoridad competente, y en la medida estrictamente necesaria,\ndebiendo notificar previamente a la otra parte si las circunstancias lo\npermitieran.\n7.4. El incumplimiento de esta cláusula habilitará a la parte afectada a iniciar\nlas\nacciones civiles y penales que correspondan, sin perjuicio de la facultad de exigir\nel cese inmediato de la divulgación.",
+      "riesgo_detectado": true,
+      "tipo_riesgo": "confidencialidad y su duración",
+      "nivel_riesgo": "alto",
+      "explicacion": "La obligación de confidencialidad se extiende por 5 años después de finalizado el contrato y abarca toda información técnica, comercial, financiera y estratégica, incluso sin estar marcada expresamente como confidencial, lo que implica un compromiso amplio y prolongado para la empresa contratante. Además, el incumplimiento habilita acciones civiles y penales, lo que eleva significativamente el impacto potencial.",
+      "cita_textual": "La obligación de confidencialidad subsistirá durante la vigencia del Contrato y por un período de cinco (5) años contados desde su vencimiento o resolución por cualquier causa, con independencia del motivo de extinción.",
+      "requiere_revision_humana": false,
+      "motivo_revision": null,
+      "error": null
+    },
+    {
+      "numero_clausula": "OCTAVA",
+      "titulo_clausula": "LIMITACIÓN DE RESPONSABILIDAD",
+      "cuerpo_clausula": "La responsabilidad total y acumulada del Proveedor frente al Cliente por cualquier\nconcepto derivado del presente Contrato ·sea por incumplimiento, negligencia o\ncualquier otra causa· no podrá exceder en ningún caso el equivalente al precio de\ntres (3) meses de servicio efectivamente abonado por el Cliente en el período\ninmediatamente anterior al evento generador del daño. Quedan excluidos expresamente\nlos daños indirectos, el lucro cesante, la pérdida de chance y todo daño\nconsecuente,\naunque el Proveedor hubiese sido informado de la posibilidad de que tales daños\npudieran producirse.",
+      "riesgo_detectado": true,
+      "tipo_riesgo": "limitación de responsabilidad",
+      "nivel_riesgo": "alto",
+      "explicacion": "La cláusula limita la compensación máxima que el Proveedor debe pagar a solo 3 meses de servicio, sin importar la magnitud del daño real causado, y excluye completamente daños indirectos, lucro cesante y pérdida de chance, dejando al Cliente con cobertura muy acotada ante incumplimientos graves.",
+      "cita_textual": "no podrá exceder en ningún caso el equivalente al precio de tres (3) meses de servicio efectivamente abonado por el Cliente en el período inmediatamente anterior al evento generador del daño",
+      "requiere_revision_humana": false,
+      "motivo_revision": null,
+      "error": null
+    },
+    {
+      "numero_clausula": "NOVENA",
+      "titulo_clausula": "CESIÓN DEL CONTRATO",
+      "cuerpo_clausula": "Ninguna de las partes podrá ceder, transferir ni delegar total o parcialmente los\nderechos y obligaciones emergentes del presente Contrato a terceros, sin el\nconsentimiento previo, expreso y por escrito de la otra parte.\nNo obstante, el Proveedor podrá subcontratar parcialmente la prestación de\nservicios\ncon empresas del mismo grupo económico, manteniendo responsabilidad directa y\n\nsolidaria frente al Cliente por la actuación de dichos subcontratistas.",
+      "riesgo_detectado": true,
+      "tipo_riesgo": "cesión del contrato a terceros",
+      "nivel_riesgo": "medio",
+      "explicacion": "Si bien la cláusula requiere consentimiento mutuo para ceder el contrato, habilita al Proveedor a subcontratar parcialmente con empresas de su grupo económico sin necesidad de aprobación del Cliente, lo que puede derivar en que terceros no evaluados ejecuten parte de los servicios contratados.",
+      "cita_textual": "el Proveedor podrá subcontratar parcialmente la prestación de servicios con empresas del mismo grupo económico, manteniendo responsabilidad directa y solidaria frente al Cliente por la actuación de dichos subcontratistas",
+      "requiere_revision_humana": true,
+      "motivo_revision": "Conviene evaluar si la subcontratación sin consentimiento del Cliente dentro del grupo económico del Proveedor es aceptable según el contexto del negocio, y verificar que la responsabilidad solidaria establecida sea suficiente garantía ante posibles incumplimientos de los subcontratistas.",
+      "error": null
+    },
+    {
+      "numero_clausula": "DÉCIMA",
+      "titulo_clausula": "INDEMNIDAD",
+      "cuerpo_clausula": "El Proveedor mantendrá indemne e indemnizará al Cliente de todo daño, perjuicio,\ncosto, gasto o reclamo de cualquier naturaleza que pudiera surgir como consecuencia\ndirecta del incumplimiento de sus obligaciones contractuales, de la negligencia de\nsu\npersonal, o del uso de software de terceros en la plataforma LOGFLOW Pro que\ninfringiera derechos de propiedad intelectual de terceros. Esta indemnidad incluye\nlos\nhonorarios razonables de abogados en que incurriera el Cliente para su defensa.\nCLÁUSULA UNDÉCIMA: JURISDICCIÓN Y LEY APLICABLE\nPara todos los efectos emergentes del presente Contrato, las partes acuerdan\nsometerse\nexclusivamente a la jurisdicción de los Tribunales Ordinarios en lo Comercial de la\nCiudad Autónoma de Buenos Aires, renunciando expresamente a cualquier otro fuero o\njurisdicción que pudiera corresponderles, incluso el fuero federal. El presente\nContrato se rige íntegramente por las leyes de la República Argentina.\nCLÁUSULA DUODÉCIMA: DISPOSICIONES GENERALES\n12.1. El presente Contrato constituye el acuerdo completo entre las partes y\nreemplaza\ncualquier negociación, propuesta o acuerdo previo, ya sea verbal o escrito.\n12.2. Cualquier modificación deberá instrumentarse por escrito y ser firmada por\nrepresentantes debidamente autorizados de ambas partes para tener validez.\n12.3. Si alguna cláusula fuera declarada inválida o inaplicable, las restantes\ndisposiciones continuarán en plena vigencia sin alteración.\n12.4. Las notificaciones entre las partes deberán realizarse por medio fehaciente\n(carta documento, acta notarial o correo electrónico con acuse de recibo) al\ndomicilio\no dirección de correo que cada parte designe formalmente.\nEn prueba de conformidad, las partes suscriben dos (2) ejemplares de idéntico tenor\ny\na un solo efecto, en la Ciudad Autónoma de Buenos Aires, a los 15 días del mes de\nmayo de 2025.\n_______________________________       _______________________________\nDATAFLOW SISTEMAS S.R.L.              DISTRIBUIDORA DEL NORTE S.A.\nIng. Alejandro Morales                Cra. Valentina Ramos\nGerente General                       Directora Comercial\nCUIT 30-71892456-9                    CUIT 30-65124789-2",
+      "riesgo_detectado": true,
+      "tipo_riesgo": "indemnidad",
+      "nivel_riesgo": "alto",
+      "explicacion": "La cláusula obliga al Proveedor a cubrir cualquier daño, costo o reclamo que surja de sus incumplimientos, negligencia o infracciones de propiedad intelectual, incluyendo honorarios de abogados, lo que representa un compromiso económico significativo y de alcance amplio para el Proveedor.",
+      "cita_textual": "El Proveedor mantendrá indemne e indemnizará al Cliente de todo daño, perjuicio, costo, gasto o reclamo de cualquier naturaleza que pudiera surgir como consecuencia directa del incumplimiento de sus obligaciones contractuales, de la negligencia de su personal, o del uso de software de terceros en la plataforma LOGFLOW Pro que infringiera derechos de propiedad intelectual de terceros.",
+      "requiere_revision_humana": true,
+      "motivo_revision": "La cláusula contiene dos tipos de riesgo diferenciables (indemnidad y jurisdicción/ley aplicable) dentro del mismo bloque de texto analizado; se recomienda revisión humana para evaluar ambos riesgos por separado y verificar si el alcance de 'cualquier naturaleza' resulta excesivamente amplio o negociable.",
+      "error": null
+    }
+  ]
+}
