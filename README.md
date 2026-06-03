@@ -2,6 +2,8 @@
 
 Herramienta de asistencia para análisis de contratos con proveedores en Argentina. Sube un PDF y el sistema identifica cláusulas de riesgo, las clasifica por severidad, cita el texto exacto y genera un informe navegable.
 
+![Analizador de Contratos](docs/analizador.png)
+
 > **⚠ Herramienta de asistencia.** No reemplaza la revisión de un profesional del derecho.
 
 ---
