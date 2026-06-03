@@ -1,4 +1,4 @@
-import { useEffect, useRef, useMemo } from 'react'
+import React, { useEffect, useRef, useMemo } from 'react'
 
 /**
  * Convierte el texto plano + lista de hallazgos en segmentos renderizables.

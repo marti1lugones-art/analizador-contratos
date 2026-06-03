@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import React, { useState, useCallback } from 'react'
 import { analizarContrato } from './api'
 import UploadZone from './components/UploadZone'
 import ContractViewer from './components/ContractViewer'

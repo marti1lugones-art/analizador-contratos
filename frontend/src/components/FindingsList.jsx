@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import React, { useMemo } from 'react'
 
 const NIVEL_CONFIG = {
   alto:  { icon: '🔴', label: 'ALTO',  badge: 'badge-alto'  },
